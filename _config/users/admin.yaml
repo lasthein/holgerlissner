@@ -1,9 +1,12 @@
 ---
 first_name: Admin
 last_name: McAwesome
-roles: [admin]
+roles:
+  - admin
 email: email@example.com
-password:
+password: ""
+_uid: glLYfx5463b8eb5d93eB1F8sk2v
+password_hash: $2a$08$e6G4z/GSTYD7kSRcZpJeyOGidQeKVD/F9DiMLAV9zjGj1KLTzRGkC
 ---
 Have no fears, your password, while plain text to start, will be encrypted upon first login. If ever you need to manually reset a password you can wipe out the password fields and start anew.
 
