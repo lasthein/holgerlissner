@@ -1,8 +1,9 @@
 #! /bin/bash
 
 cd /var/www/holgerlissner
-git add -A
-git commit -am "Nightly commit on lasthein Digital Ocean droplet"
-git push origin online
+git add -A > /dev/null
+git commit -am "Nightly commit on lasthein Digital Ocean droplet" > /dev/null
+git push origin online > /dev/null
+
 
 
