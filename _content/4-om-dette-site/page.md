@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: Om dette website
 _template: page
 _fieldset: page
 upload: ""

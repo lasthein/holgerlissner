@@ -3,7 +3,7 @@ html {
    color: #222;
    margin: 0;
    padding: 0;
-   background: #2c1b16 url("../img/mountainscape.jpg") no-repeat fixed 50% 0;
+   background: #fff;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -143,9 +143,9 @@ hr {
    font-weight: normal;
    letter-spacing: -1px;
    font-size: 3em;
-   text-align: center;
+   text-align: left;
    text-shadow: 0 0.05em 0.5em #bbb;
-   margin: 0 0 0.5em;
+   margin: 0 0 0.5em 36px;
    padding-top: 0.5em;
 }
 
@@ -228,8 +228,9 @@ hr {
 /* nav */
 
 .nav {
-   background-color: #4f3b32;
-   text-align: center;
+   background-color: #333;
+   text-align: left;
+   padding-left:25px;
 }
 
    .small-screen {
@@ -862,7 +863,7 @@ ol.roman ol {
    font-size: 0.8125em;
    line-height: 1.4;
    text-align: center;
-   background-color: #2c1b16;
+   background-color: #333;
    padding: 1.25em 0;
    color: #95665d;
    margin-bottom: 2.5em;

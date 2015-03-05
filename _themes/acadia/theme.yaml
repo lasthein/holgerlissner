@@ -11,8 +11,8 @@ favorite_sites:
     name: Statamic
     url: http://statamic.com
     
-site_twitter: statamic
+site_twitter: lasthein
 
 # used in the feed
-site_language: en
-contact_email: you@example.com
+site_language: da
+contact_email: lasthein@gmail.com

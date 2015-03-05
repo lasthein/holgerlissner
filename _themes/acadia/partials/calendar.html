@@ -1,11 +1,10 @@
 <div class="calendar side-block {{ switch between="odd|even" }}">
-    <h2><a href="/calendar">Upcoming Events</a></h2>
+    <h2><a href="/calendar">Foredrags kalender</a></h2>
 
     {{ entries:listing folder="calendar" show_future="true" show_past="false" limit="2" sort_dir="asc" paginate="false" }}
         {{ if no_results }}
             <p class="sorry">
-                Nothing coming up.<br>
-                Check back soon.
+                Der er for tiden ingen planlagte fordrag.<br>                
             </p>
         {{ else }}
             {{ if first }}

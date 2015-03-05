@@ -1,16 +1,12 @@
 <div class="row">
 	<div class="eight columns">
 		
-		<h3>På dette website kan du finde alle Holger Lissners salmer</h3>
+		<h3>Yeahhh ny template lagt ind i templates mappen med post-fix rala</h3>
 		
-		<p>Dette er startsiden og denne side rettes ved at gå ind i default.html filen i mappen templates.</p>
+		<p>Dette er den nye artikel_rala.html template der er oprettet af Rasmus i mappen temlates. Så skal vi bare finde ud af at ændre templaten default.html således at den viser noget andet.</p>
 		
 		
-		<!-- Dynamisk udtræk af artikler start-->
-		
-		<!--
-		
-		{{ entries:listing folder="blog" limit="1" }}
+		{{ entries:listing folder="artikler" limit="1" }}
 			{{ if no_results }}
 				<p class="sorry">
 					Der er ikke skrevet nogle artikler endnu.<br>
@@ -21,7 +17,7 @@
 			{{ endif }}
 		{{ /entries:listing }}
 		
-		{{ entries:pagination folder="blog" limit="3" }}
+		{{ entries:pagination folder="artikler" limit="3" }}
 			{{ if next_page || previous_page }}
 				<div class="pagination clearfix">
 					{{ if next_page }}
@@ -33,15 +29,6 @@
 				</div>
 			{{ endif }}
 		{{ /entries:pagination }}
-		
-		 -->
-			
-		<!-- Dynamisk udtræk af artikler slut-->
-		
-		<p>Jeg skal evt. have lavet et dynamisk udtræk af seneste publicerede salme</p>
-		
-		<p>Kan formentlig hacke templaten til blog posts så den passer til salmer i stedet og så kunne kopiere den logik der laver dynamiske udtræk på kategorier osv.</p>	
-		
 	</div>
 
 	<div class="four columns sidebar" role="complementary">
