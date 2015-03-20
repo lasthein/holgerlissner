@@ -18,6 +18,7 @@
   		font-family: Arial;
   		font-size: 14px;
   		color:#000;
+  		background: #fff url('topBG.jpg') no-repeat center 0 fixed;
   		}
   		
   	ul {
@@ -266,9 +267,9 @@
 			
 			<div class="blog">
 				
-				<div style="position:relative; height:35px;">
+				<div style="position:relative; height:299px;">
 									
-					<!--div>
+					<div>
 						
 						<h2 style="font-size:26px; padding-top:10px;">Tre er dræbt og fem såret i skudvekslinger i København </h2>
 						
@@ -278,7 +279,7 @@
 							Politiet har kl 16.15 fundet hans bil ved Nordhavn Station.
 						</h3>
 						
-					</div-->												
+					</div>												
 					<nav>
 						<ul class="filter">
 							<li><a href="#" class="first">Alt</a></li>
@@ -446,7 +447,7 @@
 	<script>
 	   $(document).ready(function(){
 		   $(window).bind('scroll', function() {
-		   var navHeight = $( window ).height() + 10	;
+		   var navHeight = $( window ).height() - 457	;
 				 if ($(window).scrollTop() > navHeight) {
 					 $('nav').addClass('fixed');
 				 }
