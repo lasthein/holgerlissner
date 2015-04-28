@@ -125,7 +125,7 @@ function getElementRect(element) {
 
     function resize() {
         updateValues();
-        var height = (viewportHeight - 420);
+        var height = (viewportHeight - 540);
         var maxItems = Math.floor((height - 90) / listItemHeight);
         for (var i=0;i<eventItems.length;i++) {
             eventItems[i].style.display = maxItems <= i ? "none" : "";
