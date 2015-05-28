@@ -1,0 +1,379 @@
+.site-wrapper {
+    /*padding-top: 50px;*/
+}
+.site-id {
+    border-bottom: 5px solid black;
+}
+.mobil-navigation {
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    background: white;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
+}
+.mobil-navigation ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    white-space: nowrap;
+}
+.mobil-navigation ul li {
+    float: left;
+    width: 33%;
+    height: 100%;
+    padding: 2px;
+}
+.mobil-navigation ul li button {
+    text-transform: uppercase;
+    background: #999;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    border: 0;
+    outline: none;
+    font-size: 90%;
+}
+.mobil-navigation ul li button.active {
+    background: #666;
+}
+
+.blog .filter-container {
+    background-color: #c0c0c0;
+    white-space: nowrap;
+    height: auto;
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 10px;
+}
+.blog .filter-container.fixed {
+    position: fixed;
+    width: 651px;
+    top: 0;
+    height: auto;
+    padding-top: 60px;
+}
+
+.blog .filter-dummy {
+    width: 100%;
+    height: 60px;
+    display: none;
+}
+
+
+.blog .filter-container.disable {
+    transform: translate(0, -200px);
+}
+
+.blog .filter {
+/*    border-top: 3px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+*/
+    width: 100%;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.blog .filter li {
+    display: inline-block;
+}
+
+.blog .filter li a {
+    display: block;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 5px 15px;
+    margin-right: 10px;
+    background: #999;
+    color: #fff;
+    float: left;
+}
+
+.blog .filter li:first-child a {
+    background-color: black;
+}
+
+.blog .teaser {
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blog .posts {
+    margin-top: 20px;
+}
+.blog .posts li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #cdcdcd;
+    border-bottom-color: rgba(0,0,0,0.2);
+}
+.blog .posts .time {
+    display: none;
+    color: #999;
+    margin-bottom: 10px;
+}
+.blog .posts .posting {
+    margin-bottom: 20px;
+}
+
+.blog .posts .time-short {
+    display: block;
+    float: left;
+    width: 50px;
+    font-weight: bold;
+}
+
+.blog .posts .posting {
+    margin-left: 50px;
+    padding-right: 10px;
+}
+
+.blog .posts .posting img {
+    width: 100%;
+}
+
+
+.mobil-section {
+    display: none;
+}
+
+.mobil-section.active {
+    display: block;
+}
+
+.sidebar-area {
+    margin-top: 10px;
+}
+
+.sidebar-container .player {
+    margin-bottom: 20px;
+}
+.sidebar-container .player img {
+    width: 100%;
+}
+.sidebar-container, .filter-container {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.sidebar-container.fixed {
+    position: fixed;
+    width: 459px;
+    max-height: 100%;
+    top: 0;
+    padding-top: 60px;
+}
+
+.sidebar-container .event-list {
+    margin-bottom: 0;
+}
+
+.sidebar-container .event-list h2 {
+    font-size: 16px;
+    border-top: 3px solid #000;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.sidebar-container .event-list .navigation {
+    display: none;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.sidebar-container .event-list .item .time {
+    float: left;
+    width: 50px;
+    font-weight: bold;
+}
+
+.sidebar-container .event-list .item a {
+    display: block;
+    margin-left: 50px;
+}
+
+
+.player-container {
+    display: none;
+}
+.player-container.active {
+    display: block;
+}
+.player-container .player {
+    margin-bottom: 20px;
+}
+.player-container .player img {
+    width: 100%;
+}
+
+.player-container .player .caption {
+    display: block;
+    background: black;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+}
+.player-container, .filter-container {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.player-container.fixed {
+    position: fixed;
+    width: 459px;
+    max-height: 100%;
+    top: 0;
+    padding-top: 60px;
+}
+
+.player-container .event-list {
+    margin-bottom: 0;
+}
+
+.player-container .event-list h2,
+.overblik .event-list h2 {
+    font-size: 16px;
+    border-top: 3px solid #000;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.player-container .event-list .navigation {
+    display: none;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.player-container .event-list .item {
+    padding-left: 50px;
+}
+.player-container .event-list .item .time {
+    float: left;
+    width: 50px;
+    font-weight: bold;
+    margin-left: -50px;
+}
+
+.player-container .event-list .item a {
+    display: block;
+    margin-left: 50px;
+}
+
+
+.video-navigation {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+.video-navigation ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    white-space: nowrap;
+}
+.video-navigation ul li {
+    float: left;
+    width: 50px;
+    height: 100%;
+    padding-right: 2px;
+}
+.video-navigation ul li button {
+    text-transform: uppercase;
+    background: #999;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 24px;
+    text-align: center;
+    border: 0;
+    outline: none;
+    font-size: 90%;
+}
+.video-navigation ul li button.active {
+    background: #666;
+}
+
+.overblik .row.divider {
+    border-bottom: 1px solid black;
+    height: 1px;
+    margin: 0;
+}
+
+.overblik h3 {
+    margin-top: 5px;
+}
+
+.overblik .image {
+    width:100%;
+    background: #c0c0c0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.overblik .image-small {
+    width:100%;
+    background: #c0c0c0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.overblik .image img,
+.overblik .image-small img {
+    width: 100%;
+}
+
+.overblik h3.small {
+    font-size: 14px;
+    font-family: "GibsonRegular"
+}
+
+.overblik .event-list {
+    margin-bottom: 0;
+}
+
+.overblik .event-list h2 {
+    font-size: 16px;
+    border-top: 3px solid #000;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.overblik .event-list .navigation {
+    display: none;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.overblik .event-list .item {
+    padding-left: 50px;
+}
+
+.overblik .event-list .item .time {
+    float: left;
+    width: 50px;
+    font-weight: bold;
+    margin-left: -50px;
+}
+
+.overblik .event-list .item a {
+    display: block;
+    margin-left: 50px;
+}
